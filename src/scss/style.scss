@@ -1,0 +1,35 @@
+@import "fonts";
+
+body{
+    font-family: open;
+        color: rgb(0, 72, 255);
+        background-color: #b8b8b8;
+    header{
+        font-size: 20px;
+        font-weight: 600;
+        img{
+            width: 150px;
+        }
+    }
+    
+    h1{
+    }
+    span{
+        font-size: 35px;
+        color: rgb(202, 62, 11);
+        
+    }
+    // background: url('@img/my.jpg') 0 0 no-repeat;
+}
+
+@media (max-width: 768px){
+    span{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: #bdcfbd;
+    }
+}
